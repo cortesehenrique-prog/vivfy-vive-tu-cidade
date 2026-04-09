@@ -23,7 +23,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-slide-up mb-8">
           <img
-            src="/vivfy-logo-hero.png"
+            src="https://lovable-uploads.s3.us-west-2.amazonaws.com/ad4623a9-3211-486d-8d4d-dabefaf952a4.png"
             alt="VIVFY Logo"
             className="mx-auto w-48 md:w-64 animate-float object-fill"
           />
