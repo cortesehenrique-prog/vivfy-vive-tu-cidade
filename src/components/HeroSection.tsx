@@ -1,5 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
-import vivfyLogo from "@/assets/vivfy-logo.png";
+
 
 const HeroSection = () => {
   return (
@@ -23,9 +23,9 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-slide-up mb-8">
           <img
-            src={vivfyLogo}
+            src="/5945a5cf-fa11-48e7-b6c8-2b8d860fa267.png"
             alt="VIVFY Logo"
-            className="mx-auto w-48 md:w-64 animate-float"
+            className="mx-auto w-48 md:w-64 animate-float object-fill"
           />
         </div>
 
