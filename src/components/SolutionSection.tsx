@@ -1,4 +1,4 @@
-import { Barcode, Split, ShieldCheck } from "lucide-react";
+import { Barcode, Split, ShieldCheck, CreditCard, Headphones, SlidersHorizontal } from "lucide-react";
 import dashboardMockup from "@/assets/dashboard-mockup.jpg";
 
 const features = [
@@ -16,6 +16,21 @@ const features = [
     icon: ShieldCheck,
     title: "Resiliência Total",
     description: "Operação Offline-first e redundância de Gateway. Se um sistema cai, o VIVFY vira a chave e continua vendendo.",
+  },
+  {
+    icon: CreditCard,
+    title: "Maquininhas Subsidiadas*",
+    description: "As maquininhas Smart POS são por nossa conta. Você foca no seu negócio, a gente cuida da infraestrutura de pagamento.",
+  },
+  {
+    icon: Headphones,
+    title: "Suporte 24h & Acompanhamento",
+    description: "Time dedicado disponível 24 horas. Acompanhamento de perto de cada cliente, do onboarding à operação diária.",
+  },
+  {
+    icon: SlidersHorizontal,
+    title: "Painel 100% Customizável",
+    description: "Dashboard feito sob medida para cada negócio. As necessidades de uma farmácia são diferentes de uma festa — seu painel reflete isso.",
   },
 ];
 
@@ -64,6 +79,10 @@ const SolutionSection = () => {
             <div className="absolute -top-4 -left-4 w-32 h-32 rounded-full bg-cyan-neon/10 blur-3xl" />
           </div>
         </div>
+
+        <p className="mt-8 text-[10px] text-muted-foreground/50 text-center">
+          *Sujeito a análise de perfil comercial e volume de faturamento do estabelecimento.
+        </p>
       </div>
     </section>
   );
