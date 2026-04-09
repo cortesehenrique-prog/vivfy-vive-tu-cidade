@@ -36,7 +36,7 @@ const ProblemSection = () => {
             <span className="gradient-text-cta">custando caro.</span>
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto">
-            Eventos perdem até <span className="text-foreground font-semibold">20% de margem</span> com
+            Eventos perdem até <span className="text-foreground font-semibold">30% de margem</span> com
             falhas de rede, roubo de estoque manual e burocracia no repasse de pagamentos.
           </p>
         </div>
