@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import vivfyLogo from "@/assets/vivfy-logo.png";
 
 
 const HeroSection = () => {
@@ -23,7 +24,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-slide-up mb-8">
           <img
-            src="https://lovable-uploads.s3.us-west-2.amazonaws.com/ad4623a9-3211-486d-8d4d-dabefaf952a4.png"
+            src={vivfyLogo}
             alt="VIVFY Logo"
             className="mx-auto w-48 md:w-64 animate-float object-fill"
           />
@@ -31,7 +32,8 @@ const HeroSection = () => {
 
         <h1 className="animate-slide-up-delay-1 font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight max-w-4xl mx-auto">
           A infraestrutura tecnológica que{" "}
-          <span className="gradient-text">pulsa com a sua cidade.</span>
+          <span style={{ color: "hsl(200, 100%, 70%)" }}>pulsa </span>
+          <span className="gradient-text">com a sua cidade.</span>
         </h1>
 
         <p className="animate-slide-up-delay-2 mt-6 text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
