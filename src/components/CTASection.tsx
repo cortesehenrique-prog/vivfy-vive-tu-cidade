@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const CTASection = () => {
   return (
-    <section id="contato" className="py-20 md:py-32 relative">
+    <section className="py-20 md:py-32 relative">
       <div className="container mx-auto px-6">
         <div className="glass-card rounded-2xl p-10 md:p-16 text-center relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-magenta/10 rounded-full blur-[100px]" />
@@ -22,12 +24,12 @@ const CTASection = () => {
               >
                 Fale com a Gente
               </a>
-              <a
-                href="#investidor"
+              <Link
+                to="/investidor"
                 className="inline-block glass-card px-10 py-4 rounded-lg font-heading font-semibold text-foreground text-lg transition-all hover:scale-105"
               >
                 Solicitar Pitch Deck
-              </a>
+              </Link>
             </div>
           </div>
         </div>
