@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -39,19 +40,19 @@ const HeroSection = () => {
         </p>
 
         <div className="animate-slide-up-delay-3 mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#eventos"
+          <Link
+            to="/eventos"
             className="gradient-cta px-8 py-4 rounded-lg font-heading font-semibold text-foreground text-lg transition-all hover:scale-105 hover:shadow-lg"
             style={{ boxShadow: "var(--glow-magenta)" }}
           >
             Conheça a Solução
-          </a>
-          <a
-            href="#investidor"
+          </Link>
+          <Link
+            to="/investidor"
             className="glass-card px-8 py-4 rounded-lg font-heading font-semibold text-foreground text-lg transition-all hover:scale-105"
           >
             Para Investidores
-          </a>
+          </Link>
         </div>
       </div>
 

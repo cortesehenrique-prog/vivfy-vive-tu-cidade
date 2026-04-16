@@ -1,15 +1,17 @@
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
+import InvestorSection from "@/components/InvestorSection";
 import Footer from "@/components/Footer";
 
-const Index = () => {
+const Investidor = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
-      <HeroSection />
+      <div className="pt-16">
+        <InvestorSection />
+      </div>
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default Investidor;
